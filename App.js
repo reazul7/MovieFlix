@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { StyleSheet, Text, View } from 'react-native';import { NavigationContainer } from '@react-navigation/native';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
-import {MaterialCommunityIcon} from '@expo/vector-icons'
+import {MaterialCommunityIcons} from '@expo/vector-icons'
 
 import Home from './screens/home'
 import Profile from './screens/profile'
@@ -25,7 +25,7 @@ export default function App() {
         options={{
           tabBarLabel: '',
           tabBarIcon: ({color}) => (
-            <MaterialCommunityIcon name='home' color={color} size={28}/>
+            <MaterialCommunityIcons name='home' color={color} size={28}/>
           )
         }}
         />
@@ -35,7 +35,7 @@ export default function App() {
          options={{
           tabBarLabel: '',
           tabBarIcon: ({color}) => (
-            <MaterialCommunityIcon name='camera-metering-spot' color={color} size={28}/>
+            <MaterialCommunityIcons name='camera-metering-spot' color={color} size={28}/>
           )
         }}
          />
@@ -45,7 +45,7 @@ export default function App() {
         options={{
           tabBarLabel: '',
           tabBarIcon: ({color}) => (
-            <MaterialCommunityIcon name='home' color={color} size={28}/>
+            <MaterialCommunityIcons name='account' color={color} size={28}/>
           )
         }}
         />
