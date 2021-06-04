@@ -118,7 +118,8 @@ export class App extends Component {
             </ImageBackground>
           </View>
           {/* end home banner */}
-          {/* Hotest Movie! */}
+
+          {/* Start Hotest Movie! */}
         <View style={{ marginTop: 20, paddingHorizontal: 20 }}>
             <Text
               style={{
@@ -356,6 +357,9 @@ export class App extends Component {
               <View style={{ width: 30 }}></View>
             </View>
           </ScrollView>
+          {/* Start Hotest Movie! */}
+
+          
         </ScrollView>
       </View>
     );
