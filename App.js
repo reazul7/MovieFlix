@@ -117,7 +117,245 @@ export class App extends Component {
               </View>
             </ImageBackground>
           </View>
-        {/* end home banner */}
+          {/* end home banner */}
+          {/* Hotest Movie! */}
+        <View style={{ marginTop: 20, paddingHorizontal: 20 }}>
+            <Text
+              style={{
+                fontSize: 16,
+                color: "black",
+                fontWeight: "bold",
+              }}
+            >
+              HOTEST MOVIES!
+            </Text>
+            <Text
+              style={{
+                fontSize: 12,
+                color: "grey",
+                fontWeight: "bold",
+              }}
+            >
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, eos. Eum iste magni omnis sunt.
+            </Text>
+          </View>
+          <ScrollView
+            horizontal={true}
+            style={{
+              paddingLeft: 20,
+              paddingRight: 10,
+              marginTop: 10,
+            }}
+            showsHorizontalScrollIndicator={false}
+          >
+            <View
+              style={{
+                flexDirection: "row",
+              }}
+            >
+              <View
+                style={{
+                  overflow: "hidden",
+                  borderRadius: 10,
+                  marginRight: 10,
+                  maxHeight: 200,
+                }}
+              >
+                <ImageBackground
+                  style={{
+                    width: 150,
+                    height: 200,
+                  }}
+                  source={{
+                    uri:
+                      "http://www.scrolldroll.com/wp-content/uploads/2021/03/Harry-Potter-Series-Best-Hollywood-Movies-About-Magic.jpg",
+                  }}
+                >
+                  <View style={{ position: "absolute", bottom: 20, left: 20 }}>
+                    <Text
+                      style={{
+                        fontSize: 14,
+                        color: "white",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      Harry Potter
+                    </Text>
+                    <Text
+                      style={{
+                        fontSize: 14,
+                        color: "white",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      <Feather name="star" size={18} color="white" /> 5
+                    </Text>
+                  </View>
+                </ImageBackground>
+              </View>
+              <View
+                style={{
+                  overflow: "hidden",
+                  borderRadius: 10,
+                  marginRight: 10,
+                  maxHeight: 200,
+                }}
+              >
+                <ImageBackground
+                  style={{
+                    width: 150,
+                    height: 200,
+                  }}
+                  source={{
+                    uri:
+                      "https://m.media-amazon.com/images/M/MV5BMjE5MjkwODI3Nl5BMl5BanBnXkFtZTcwNjcwMDk4NA@@._V1_.jpg",
+                  }}
+                >
+                  <View style={{ position: "absolute", bottom: 20, left: 20 }}>
+                    <Text
+                      style={{
+                        fontSize: 14,
+                        color: "white",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      Pirates of the Caribbean
+                    </Text>
+                    <Text
+                      style={{
+                        fontSize: 14,
+                        color: "white",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      <Feather name="star" size={18} color="white" /> 5
+                    </Text>
+                  </View>
+                </ImageBackground>
+              </View>
+              <View
+                style={{
+                  overflow: "hidden",
+                  borderRadius: 10,
+                  marginRight: 10,
+                  maxHeight: 200,
+                }}
+              >
+                <ImageBackground
+                  style={{
+                    width: 150,
+                    height: 200,
+                  }}
+                  source={{
+                    uri:
+                      "https://images-na.ssl-images-amazon.com/images/I/51KjbtEkoeL._AC_.jpg",
+                  }}
+                >
+                  <View style={{ position: "absolute", bottom: 20, left: 20 }}>
+                    <Text
+                      style={{
+                        fontSize: 14,
+                        color: "white",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      The Shawshank Redemption
+                    </Text>
+                    <Text
+                      style={{
+                        fontSize: 14,
+                        color: "white",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      <Feather name="star" size={18} color="white" /> 5
+                    </Text>
+                  </View>
+                </ImageBackground>
+              </View>
+              <View
+                style={{
+                  overflow: "hidden",
+                  borderRadius: 10,
+                  marginRight: 10,
+                  maxHeight: 200,
+                }}
+              >
+                <ImageBackground
+                  style={{
+                    width: 150,
+                    height: 200,
+                  }}
+                  source={{
+                    uri:
+                      "https://goombastomp.com/wp-content/uploads/2019/12/2de15ed0b566c57eb43fb6590811e88d.jpg",
+                  }}
+                >
+                  <View style={{ position: "absolute", bottom: 20, left: 20 }}>
+                    <Text
+                      style={{
+                        fontSize: 14,
+                        color: "white",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      Knives Out
+                    </Text>
+                    <Text
+                      style={{
+                        fontSize: 14,
+                        color: "white",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      <Feather name="star" size={18} color="white" /> 5
+                    </Text>
+                  </View>
+                </ImageBackground>
+              </View>
+              <View
+                style={{
+                  overflow: "hidden",
+                  borderRadius: 10,
+                  marginRight: 10,
+                  maxHeight: 200,
+                }}
+              >
+                <ImageBackground
+                  style={{
+                    width: 150,
+                    height: 200,
+                  }}
+                  source={{
+                    uri:
+                      "https://www.newsbricks.com/root_upld/general-news/2021/04/81214/org_13412202104131700.jpg",
+                  }}
+                >
+                  <View style={{ position: "absolute", bottom: 20, left: 20 }}>
+                    <Text
+                      style={{
+                        fontSize: 14,
+                        color: "white",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      Chaos Walking
+                    </Text>
+                    <Text
+                      style={{
+                        fontSize: 14,
+                        color: "white",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      <Feather name="star" size={18} color="white" /> 5
+                    </Text>
+                  </View>
+                </ImageBackground>
+              </View>
+              <View style={{ width: 30 }}></View>
+            </View>
+          </ScrollView>
         </ScrollView>
       </View>
     );
