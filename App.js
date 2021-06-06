@@ -359,6 +359,284 @@ export class App extends Component {
           </ScrollView>
           {/* Start Hotest Movie! */}
 
+
+ {/* Newest Movies! */}
+          <View style={{ marginTop: 20, paddingHorizontal: 20 }}>
+            <Text
+              style={{
+                fontSize: 16,
+                color: "black",
+                fontWeight: "bold",
+              }}
+            >
+              NEWEST MOVIES!
+            </Text>
+            <Text
+              style={{
+                fontSize: 12,
+                color: "grey",
+                fontWeight: "bold",
+              }}
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
+              labore est quis ducimus hic dicta.
+            </Text>
+          </View>
+          <ScrollView
+            horizontal={true}
+            style={{
+              paddingLeft: 20,
+              paddingRight: 10,
+              marginTop: 10,
+            }}
+            showsHorizontalScrollIndicator={false}
+          >
+            <View
+              style={{
+                flexDirection: "row",
+              }}
+            >
+              <View
+                style={{
+                  overflow: "hidden",
+                  borderRadius: 10,
+                  marginRight: 10,
+                  maxWidth: 250,
+                }}
+              >
+                <ImageBackground
+                  style={{
+                    width: 250,
+                    height: 150,
+                  }}
+                  source={{
+                    uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiAuGe6CRvODytDYrG6d77q6OLAcMz_3XELg&usqp=CAU",
+                  }}
+                >
+                  <View style={{ position: "absolute", bottom: 20, left: 20 }}>
+                    <Text
+                      style={{
+                        fontSize: 14,
+                        color: "white",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      A star is born
+                    </Text>
+                    <Text
+                      style={{
+                        fontSize: 14,
+                        color: "white",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      <Feather name="star" size={18} color="white" /> 5
+                    </Text>
+                  </View>
+                </ImageBackground>
+                <Text
+                  style={{
+                    fontSize: 14,
+                    color: "black",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Lorem Ipsum
+                </Text>
+                <Text
+                  style={{
+                    fontSize: 12,
+                    color: "grey",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor..
+                </Text>
+              </View>
+              <View
+                style={{
+                  overflow: "hidden",
+                  borderRadius: 10,
+                  marginRight: 10,
+                  maxWidth: 250,
+                }}
+              >
+                <ImageBackground
+                  style={{
+                    width: 250,
+                    height: 150,
+                  }}
+                  source={{
+                    uri: "https://deadline.com/wp-content/uploads/2020/10/money-heist-part-4-preview-netflix.jpg",
+                  }}
+                >
+                  <View style={{ position: "absolute", bottom: 20, left: 20 }}>
+                    <Text
+                      style={{
+                        fontSize: 14,
+                        color: "white",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      Money Heist
+                    </Text>
+                    <Text
+                      style={{
+                        fontSize: 14,
+                        color: "white",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      <Feather name="star" size={18} color="white" /> 5
+                    </Text>
+                  </View>
+                </ImageBackground>
+                <Text
+                  style={{
+                    fontSize: 14,
+                    color: "black",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Lorem Ipsum
+                </Text>
+                <Text
+                  style={{
+                    fontSize: 12,
+                    color: "grey",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor..
+                </Text>
+              </View>
+              <View
+                style={{
+                  overflow: "hidden",
+                  borderRadius: 10,
+                  marginRight: 10,
+                  maxWidth: 250,
+                }}
+              >
+                <ImageBackground
+                  style={{
+                    width: 250,
+                    height: 150,
+                  }}
+                  source={{
+                    uri: "https://theglobalcoverage.com/wp-content/uploads/2020/06/maxresdefault-4.jpg",
+                  }}
+                >
+                  <View style={{ position: "absolute", bottom: 20, left: 20 }}>
+                    <Text
+                      style={{
+                        fontSize: 14,
+                        color: "white",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      Mission Impossible
+                    </Text>
+                    <Text
+                      style={{
+                        fontSize: 14,
+                        color: "white",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      <Feather name="star" size={18} color="white" /> 5
+                    </Text>
+                  </View>
+                </ImageBackground>
+                <Text
+                  style={{
+                    fontSize: 14,
+                    color: "black",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Lorem Ipsum
+                </Text>
+                <Text
+                  style={{
+                    fontSize: 12,
+                    color: "grey",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor..
+                </Text>
+              </View>
+              <View
+                style={{
+                  overflow: "hidden",
+                  borderRadius: 10,
+                  marginRight: 10,
+                  maxWidth: 250,
+                }}
+              >
+                <ImageBackground
+                  style={{
+                    width: 250,
+                    height: 150,
+                  }}
+                  source={{
+                    uri: "https://i.redd.it/54mgjf647gn61.jpg",
+                  }}
+                >
+                  <View style={{ position: "absolute", bottom: 20, left: 20 }}>
+                    <Text
+                      style={{
+                        fontSize: 14,
+                        color: "white",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      Edge of the World
+                    </Text>
+                    <Text
+                      style={{
+                        fontSize: 14,
+                        color: "white",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      <Feather name="star" size={18} color="white" /> 5
+                    </Text>
+                  </View>
+                </ImageBackground>
+                <Text
+                  style={{
+                    fontSize: 14,
+                    color: "black",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Lorem Ipsum
+                </Text>
+                <Text
+                  style={{
+                    fontSize: 12,
+                    color: "grey",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor..
+                </Text>
+              </View>
+              <View style={{ width: 30 }}></View>
+            </View>
+          </ScrollView>
+          <View
+            style={{
+              height: 30,
+            }}
+             // trying
+          ></View>
           
         </ScrollView>
       </View>
